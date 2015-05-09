@@ -1,0 +1,17 @@
+{
+  "name": "karma-jasmine-jquery",
+  "version": "1.0.0",
+  "description": "dependecy storage for test runner .",
+  "main": "karma.config.js",
+  "author": "vikram",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^0.12.24",
+    "karma-coverage": "^0.2.6",
+    "karma-jasmine": "^0.1.5",
+    "karma-jasmine-matchers": "^0.1.3",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-jasmine-jquery": "~2.0.5"
+    jquery : "~2.1.0"
+  }
+}
