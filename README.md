@@ -28,3 +28,13 @@ Now many will ask that I am not using TDD but my development is going well. I‘
 6. Better way to fix bugs: In TDD approach when QA finds a bug, developer first writes a test that generates the bug (that is the test will fail due to this bug). Then developer modifies code to make sure that the test is passed (i.e., the bug is fixed). This approach makes sure that next time the bug will not appear in the system as a test is written in the system to take care of the bug.
 
 7. Repetition of the same bug reduced: The way bugs are fixed in TTD is described in point 6. With TDD once a bug is found, it's put under test. So every time you run the whole test in the system, the tests associated with the bug are run and make sure the bugs are not generated again.
+
+
+Installation : 
+
+ Install node first.
+ 
+   1: npm install --save-dev
+   2: karma init.
+   3: karma start.
+ 
